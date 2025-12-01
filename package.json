@@ -1,7 +1,8 @@
 
 {
   "name": "my-portfolio",
-  "homepage": "https://AfrinShahulHameed.github.io/portfolio",
+  "homepage": "https://AfrinShahulHameed.github.io/Portfolio",
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {
