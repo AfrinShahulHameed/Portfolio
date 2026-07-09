@@ -204,11 +204,14 @@ I solve complex problems through clarity, usability and thoughtful visual design
               />
             </div>
 
-            <div className="mt-6 flex flex-wrap gap-3">
-             <a href="Resume-UIUX.pdf" download>
-  <AnimatedButton variant="solid">Download CV</AnimatedButton>
+           <a
+  href={`${process.env.PUBLIC_URL}/Resume-UIUX.pdf`}
+  download="Resume-UIUX.pdf"
+>
+  <AnimatedButton variant="solid">
+    Download CV
+  </AnimatedButton>
 </a>
-            </div>
           </motion.div>
         </div>
       </section>
